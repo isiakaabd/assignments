@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(75, 195, 93);
+    height: 100vh;
+    display: flex;
+    color: rgb(240, 247, 237);
+  }
+  
+  main {
+    display: grid;
+    grid-template-areas: "sedan suv luxury";
+    gap: 10px;
+    margin: auto;
+    width: 80%;
+  }
+  
+  main div {
+    padding: 2em;
+    margin: ;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .sedan {
+    background-color: rgb(205, 137, 11);
+    grid-area: sedan;
+  }
+  .suv {
+    background-color: rgb(86, 134, 15);
+    grid-area: suv;
+  }
+  .luxury {
+    background-color: green;
+    grid-area: luxury;
+  }
+  
