@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: aliceblue;
+  /* width: 50%; */
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+}
+
+h3 {
+  padding-bottom: 15px;
+}
+.sedans {
+  padding: 2em;
+  background-color: orange;
+  color: aliceblue;
+}
+
+.suvs {
+  padding: 2em;
+  background-color: rgb(24, 162, 24);
+  color: aliceblue;
+}
+
+.luxury {
+  padding: 2em;
+  background-color: rgb(163, 31, 84);
+  color: aliceblue;
+}
